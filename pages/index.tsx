@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          xin chao <a href="https://nextjs.org">Ha mNNNNNNmNoi!</a>
+          xin chao <a href="https://nextjs.org">Ha noi!</a>
         </h1>
 
         <p className={styles.description}>
