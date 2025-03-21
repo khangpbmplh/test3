@@ -22,10 +22,10 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Install ESLint and TypeScript
-      run: npm install --save-dev eslint typescript @types/node
+    - name: Install StandardJS and TypeScript
+      run: npm install --save-dev standard typescript @types/node
 
-    - name: Run ESLint
+    - name: Run StandardJS
       run: npm run lint
 
     - name: Run tests
